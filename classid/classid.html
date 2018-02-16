@@ -1,0 +1,35 @@
+<html>
+<head>
+	<style type="text/css">
+		div.firstclass{
+			background: red;
+		}
+		div.secondclass{
+			color:white;
+		}
+		div#firstid{
+			background: grey;
+			color: black;
+
+		}
+	</style>
+</head>
+<body>
+<div class="firstclass">
+i am a div which is selected and controlled by css
+</div>
+<span>
+	css not select me because my class is same but i am a span element
+</span>
+<div id="firstid">
+	css control me by my id and element
+</div>
+<span id="firstid">
+	css not control me by my id and element because i am span element
+</span>
+<div class="firstclass secondclass">
+	i a muti class element so firstclass and secondclass both select me
+</div>
+
+</body>
+</html>

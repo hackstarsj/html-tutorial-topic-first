@@ -1,0 +1,39 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+header{
+	padding: 10px;
+	background: orange;
+}
+aside{
+	background: tomato;
+	width: 18%;
+	padding: 10px;
+	float: left;
+	height: 400px;
+}
+main{
+	background: red;
+	width: 78%;
+	padding: 10px;
+	float:left;
+	height: 400px;
+}
+footer{
+	text-align: center;
+	clear: both;
+	color: white;
+	background: green;
+	padding: 10px;
+}
+nav{
+	background: pink;
+	padding: 10px;
+
+}
+nav a{
+	background: yellow;
+	padding: 5px;
+	margin: 5px;
+}
