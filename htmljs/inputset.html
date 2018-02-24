@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML with JavaScript</title>
+</head>
+<input type="text" id="name">
+<input type="text" id="copyvalue">
+<div id="copydiv"></div>
+<button onclick="display()">Display</button>
+<body>
+	<!-- JavaSript begin -->
+<script type="text/javascript">
+	function display(){
+
+        //declaring js Vaiable 
+     	var a;
+        //storing my html element (DOM Element : Document Object Model)
+        //every dom element had its own list of properties 
+
+        //finding My Dom Element with its id
+		a=document.getElementById("name");
+		//finding element with id copyvalue and setting value
+		document.getElementById('copyvalue').value=a.value;
+		//finding element with id copydiv and setting text
+		document.getElementById('copydiv').innerHTML=a.value;
+		//div dont have propert of (value) it had property of text 
+	}
+</script>
+<!-- Java Script End -->
+</body>
+</html>
